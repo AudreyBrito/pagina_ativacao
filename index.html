@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --azul-escuro: #2a3f53;
+      --roxo-purpura: #660099;
       --ciano: #00ffff;
       --cinza-medio: #9d9fa1;
       --branco: #ffffff;
@@ -28,7 +28,7 @@
     header {
   position: relative;
   width: 100%;
-  background-color: var(--azul-escuro);
+  background-color: var(--roxo-purpura);
   color: var(--branco);
   padding: 1rem 2rem;
   text-align: center;
@@ -54,12 +54,12 @@ header img.logo-direita {
     }
     h2 {
       font-weight: 700;
-      color: var(--azul-escuro);
+      color: var(--roxo-purpura);
       margin-bottom: 0.5rem;
     }
     p {
       font-weight: 300;
-      color: var(--azul-escuro);
+      color: var(--roxo-purpura);
     }
     label {
       font-weight: 300;
@@ -77,7 +77,7 @@ header img.logo-direita {
     button {
       margin-top: 1.5rem;
       width: 100%;
-      background-color: var(--azul-escuro);
+      background-color: var(--roxo-purpura);
       color: var(--branco);
       font-weight: 700;
       padding: 0.8rem;
@@ -114,12 +114,25 @@ header img.logo-direita {
       width: 140px;
       margin: 0.5rem;
     }
+    .logo-footer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.logo-footer img {
+  height: 150px; /* ajuste conforme necessário */
+  opacity: 0.9; /* deixa mais sutil */
+}
   </style>
 </head>
+<div class="logo-footer">
+  <img src="Modo_seguro.png" alt="Logo no rodapé">
+</div>
 <body>
  <header>
   <span>Bem-vindo à Página de Ativação</span>
-  <img src="Logo_Datamob.png" alt="Logo" class="logo-direita">
 </header>
 
   <div class="container" id="form-container">
